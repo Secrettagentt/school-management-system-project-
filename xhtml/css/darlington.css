@@ -1,0 +1,13 @@
+.hidden {
+  display: none;
+}
+
+
+.form-control:focus {
+  border-color: var(--bs-primary);
+  box-shadow: inset 0 0 0 calc(1px * var(--bs-border-width)) var(--bs-primary), 0 0 0 calc(4px * var(--bs-border-width)) var(--bs-primary);
+}
+
+form{
+  width :100%;
+}
